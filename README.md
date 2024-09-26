@@ -1,5 +1,11 @@
 # NexySlackBundle
 
+## This is a fork
+
+This package is a fork of the original package. 
+
+The main goal at the moment for this package is to keep it compatible with symfony 6.
+
 Symfony bundle integration of the [nexylan/slack](https://github.com/nexylan/slack) library (old popular `maknz/slack`).
 
 [![Latest Stable Version](https://poser.pugx.org/nexylan/slack-bundle/v/stable)](https://packagist.org/packages/nexylan/slack-bundle)
