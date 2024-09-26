@@ -1,5 +1,5 @@
 {
-    "name": "nexylan/slack-bundle",
+    "name": "denisgheorghita/slack-bundle",
     "description": "Symfony bundle integration of nexylan/slack library",
     "type": "symfony-bundle",
     "license": "MIT",
