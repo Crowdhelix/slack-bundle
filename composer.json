@@ -42,4 +42,12 @@
             "dev-master": "2.x-dev"
         }
     }
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/denisgheorghita/slack"
+    }
+
+]
+
 }
