@@ -1,55 +1,58 @@
 {
-    "name": "denisgheorghita/slack-bundle",
-    "description": "Symfony bundle integration of nexylan/slack library. This one is a fork, made only for debugging and for an upgrade.",
-    "type": "symfony-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sullivan SENECHAL",
-            "email": "soullivaneuh@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.3 || ^8.0 || ^8.3",
-        "denisgheorghita/slack": "^4.0",
-        "php-http/discovery": "^1.6",
-        "php-http/httplug-bundle": "^1.17",
-        "php-http/httplug": "^2.0",
-        "symfony/http-kernel": "^3.4 || ^4.0 || ^5.0 || ^6.0"
-    },
-    "require-dev": {
-        "http-interop/http-factory-guzzle": "^1.0",
-        "matthiasnoback/symfony-dependency-injection-test": "^4.0",
-        "php-http/guzzle7-adapter": "^1.0",
-        "php-http/mock-client": "^1.1",
-        "phpunit/phpunit": "^8.4",
-        "symfony/framework-bundle": "^3.4 || ^4.4 || ^5.0 || ^6.0 || ~6.1"
-    },
-    "suggest": {
-        "eightpoints/guzzle-bundle": "Make a custom Guzzle instance for Slack with ease"
-    },
-    "autoload": {
-        "psr-4": { "Nexy\\SlackBundle\\": "src" }
-    },
-    "autoload-dev": {
-        "psr-4": { "Nexy\\SlackBundle\\Tests\\": "tests" }
-    },
-    "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/denisgheorghita/slack"
-        }
-
-    ]
+  "name": "crowdhelix/slack-bundle",
+  "description": "Symfony bundle integration of nexylan/slack library. This one is a fork, made only for debugging and for an upgrade.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sullivan SENECHAL",
+      "email": "soullivaneuh@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0 || ^8.3",
+    "crowdhelix/slack": "^4.1",
+    "php-http/discovery": "^1.6",
+    "php-http/httplug-bundle": "^1.17",
+    "php-http/httplug": "^2.0",
+    "symfony/http-kernel": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+  },
+  "require-dev": {
+    "http-interop/http-factory-guzzle": "^1.0",
+    "matthiasnoback/symfony-dependency-injection-test": "^4.0",
+    "php-http/guzzle7-adapter": "^1.0",
+    "php-http/mock-client": "^1.1",
+    "phpunit/phpunit": "^8.4",
+    "symfony/framework-bundle": "^3.4 || ^4.4 || ^5.0 || ^6.0 || ~6.1"
+  },
+  "suggest": {
+    "eightpoints/guzzle-bundle": "Make a custom Guzzle instance for Slack with ease"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nexy\\SlackBundle\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nexy\\SlackBundle\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/crowdhelix/slack"
+    }
+  ]
 }
